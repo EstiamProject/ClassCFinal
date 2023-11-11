@@ -44,7 +44,6 @@ void StringToListOfNumbers(char*s, int*list, int*num){
     int maxSize = 100;
     int numbers[maxSize];
     int count = 0;
-
     char *token = strtok(s, " ");
 
 

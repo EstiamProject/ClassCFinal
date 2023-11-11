@@ -42,7 +42,7 @@ int main(){
         strcpy(rest, input); //copier input dans rest
         chop_start(rest, len); // enlever la partie commande
 
-        if (!strcmp(func, "calc ")) {
+        if (!strcmp(func, "calc ")) { //calc
 
             calc(rest);
 

@@ -3,6 +3,7 @@
 //
 
 #include <stdio.h>
+#include <stdlib.h>
 #include "utils.h"
 
 void calc(char * input){
@@ -16,14 +17,15 @@ void todo(char * input){
 }
 void moy(char * input){
 
-    int numbers[100];
+    int numbers[255];
     int num = 0;
     float sum = 0;
+
     StringToListOfNumbers(input, numbers, &num);
 
     for (int i = 0; i < num; i++){
 
-        sum += (float)numbers[i];
+        sum += (float)numbers[i]; // calc la some de la liste
     }
 
     if (num != 0)
