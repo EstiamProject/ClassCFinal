@@ -1,3 +1,0 @@
-C:/Users/tuke/CLionProjects/ClassC/cmake-build-default-mingw-gcc/CMakeFiles/ClassC.dir
-C:/Users/tuke/CLionProjects/ClassC/cmake-build-default-mingw-gcc/CMakeFiles/edit_cache.dir
-C:/Users/tuke/CLionProjects/ClassC/cmake-build-default-mingw-gcc/CMakeFiles/rebuild_cache.dir
