@@ -7,7 +7,7 @@
 #include "utils.h"
 
 void calc(char * input){
-
+    
     printf("%s", input);
 }
 
