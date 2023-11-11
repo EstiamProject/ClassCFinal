@@ -19,7 +19,7 @@ void moy(char * input){
 
     int numbers[255];
     int num = 0;
-    float sum = 0;
+    float sum = 0.0f;
 
     StringToListOfNumbers(input, numbers, &num);
 
@@ -27,7 +27,6 @@ void moy(char * input){
 
         sum += (float)numbers[i]; // calc la some de la liste
     }
-
     if (num != 0)
         printf("moyenne: %f\n", sum / (float)num);
 }
