@@ -1,0 +1,3 @@
+C:/Users/tuke/CLionProjects/ClassC/cmake-build-release-mingw-gcc/CMakeFiles/ClassC.dir
+C:/Users/tuke/CLionProjects/ClassC/cmake-build-release-mingw-gcc/CMakeFiles/edit_cache.dir
+C:/Users/tuke/CLionProjects/ClassC/cmake-build-release-mingw-gcc/CMakeFiles/rebuild_cache.dir

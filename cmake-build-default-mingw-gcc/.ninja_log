@@ -1,0 +1,5 @@
+# ninja log v5
+0	58	7214020514185774	CMakeFiles/ClassC.dir/main.c.obj	60e5cdd3e6575bea
+4	63	7214020514235639	CMakeFiles/ClassC.dir/functions.c.obj	da5f6936b66d8bee
+6	70	7214020514306212	CMakeFiles/ClassC.dir/utils.c.obj	a0ea08457f69eecc
+70	149	7214020515064185	ClassC.exe	e0a14af8493f9dc5

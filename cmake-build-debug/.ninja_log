@@ -1,0 +1,5 @@
+# ninja log v5
+5	121	7214111456513392	CMakeFiles/ClassCFinal.dir/functions.c.obj	b3411e39f782af4c
+1	122	7214111456503387	CMakeFiles/ClassCFinal.dir/main.c.obj	37e89183e41f40c0
+10	163	7214111456939969	CMakeFiles/ClassCFinal.dir/utils.c.obj	8d4cc6debc5ba7ae
+163	266	7214111457945148	ClassCFinal.exe	fe1d482f60260163
