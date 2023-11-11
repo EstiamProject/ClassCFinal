@@ -1,8 +1,0 @@
-# ninja log v5
-0	88	7214434119135298	CMakeFiles/ClassCFinal.dir/misc/utils.c.obj	9f2d501498744d84
-13	90	7214434119125321	CMakeFiles/ClassCFinal.dir/functions/mode/mode.c.obj	365822f4a1d16dee
-8	91	7214434119165213	CMakeFiles/ClassCFinal.dir/functions/moy/moy.c.obj	af89161bd8280d68
-4	93	7214434119175187	CMakeFiles/ClassCFinal.dir/main.c.obj	bf74af4b886b4fe6
-17	97	7214434119225056	CMakeFiles/ClassCFinal.dir/functions/calc/calc.c.obj	9c086102f62d9a32
-21	100	7214434119254973	CMakeFiles/ClassCFinal.dir/functions/todo/todo.c.obj	bf8d71f612484339
-100	179	7214434120008102	ClassCFinal.exe	9246c2fedeec23ac

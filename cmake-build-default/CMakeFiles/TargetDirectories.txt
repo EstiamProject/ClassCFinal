@@ -1,3 +1,0 @@
-C:/Users/tuke/Documents/GitHub/ClassCFinal/cmake-build-default/CMakeFiles/ClassCFinal.dir
-C:/Users/tuke/Documents/GitHub/ClassCFinal/cmake-build-default/CMakeFiles/edit_cache.dir
-C:/Users/tuke/Documents/GitHub/ClassCFinal/cmake-build-default/CMakeFiles/rebuild_cache.dir
