@@ -15,7 +15,7 @@ int main(){
         printf(">>");
         fgets(input, sizeof(input), stdin); // get user input
 
-        if (!strncmp(input, "quit", 4)) { // if command is quit then quit 
+        if (!strncmp(input, "quit", 4)) { // if command is quit then quit
 
             printf("quitting %s\n", input);
             return 0;
