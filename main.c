@@ -5,7 +5,7 @@
 #include "utils.h"
 
 int main(){
-
+//ok 
     char input[255] = ""; // le input de l'utilisateur
     char func[255] = ""; // la partie qui appel la fonction ex: calc, moy...
     char rest[255] = ""; // la partie 3 + 4 - 4 par exem
