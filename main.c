@@ -5,14 +5,14 @@
 #include "utils.h"
 
 int main(){
-//ok 
+
     char input[255] = ""; // le input de l'utilisateur
     char func[255] = ""; // la partie qui appel la fonction ex: calc, moy...
     char rest[255] = ""; // la partie 3 + 4 - 4 par exem
 
     while (1) {
 
-        printf(">> ");
+        printf(">>");
         fgets(input, sizeof(input), stdin); // get user input
 
         if (!strncmp(input, "quit", 4)) {
@@ -30,19 +30,19 @@ int main(){
 
             if (input[len] == ' ')
                 loop = 0;
+
             else if (len >= 255){
+
                 printf("input invalid\n");
                 return 1;
             }
-
-
             len++;
         }
 
         strcpy(rest, input); //copier input dans rest
         chop_start(rest, len); // enlever la partie commande
 
-        if (!strcmp(func, "calc ")) { //calc
+        if (!strcmp(func, "calc ")) {
 
             calc(rest);
 
