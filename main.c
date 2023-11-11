@@ -25,17 +25,12 @@ int main(){
         }
 
         int len = 0; // pour savoir la taille de func
-        bool loop = 1;
 
-        while (loop) {
+        while (input[len] != ' ') {
 
             func[len] = input[len];
 
-            if (input[len] == ' ')
-                loop = 0;
-
-            else if (len >= 255){
-
+            if (len >= 255){
                 printf("input invalid\n");
                 return 1;
             }
