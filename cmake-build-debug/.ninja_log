@@ -1,14 +1,13 @@
 # ninja log v5
-5	121	7214111456513392	CMakeFiles/ClassCFinal.dir/functions.c.obj	b3411e39f782af4c
-1	122	7214111456503387	CMakeFiles/ClassCFinal.dir/main.c.obj	37e89183e41f40c0
-10	163	7214111456939969	CMakeFiles/ClassCFinal.dir/utils.c.obj	8d4cc6debc5ba7ae
-163	266	7214111457945148	ClassCFinal.exe	fe1d482f60260163
-2	115	7214128147921920	CMakeFiles/ClassCFinal.dir/main.c.obj	37e89183e41f40c0
-116	207	7214128148811716	ClassCFinal.exe	fe1d482f60260163
-2	94	7214132085050201	CMakeFiles/ClassCFinal.dir/functions.c.obj	b3411e39f782af4c
-95	179	7214132085860276	ClassCFinal.exe	fe1d482f60260163
-2	80	7214135858216992	CMakeFiles/ClassCFinal.dir/functions.c.obj	b3411e39f782af4c
-7	84	7214135858257857	CMakeFiles/ClassCFinal.dir/utils.c.obj	8d4cc6debc5ba7ae
-84	164	7214135859023257	ClassCFinal.exe	fe1d482f60260163
+9	93	7214424469209458	CMakeFiles/ClassCFinal.dir/misc/utils.c.obj	17dfb0d5c65cdc4e
 2	120	7214147772055611	CMakeFiles/ClassCFinal.dir/functions.c.obj	b3411e39f782af4c
+2	89	7214424469169569	CMakeFiles/ClassCFinal.dir/main.c.obj	37e89183e41f40c0
+7	84	7214135858257857	CMakeFiles/ClassCFinal.dir/utils.c.obj	8d4cc6debc5ba7ae
 120	285	7214147773680225	ClassCFinal.exe	fe1d482f60260163
+1	114	7214430410946295	build.ninja	55eddfe4e8aad3ec
+0	80	7214430410946295	build.ninja	55eddfe4e8aad3ec
+5	60	7214430411709065	CMakeFiles/ClassCFinal.dir/functions/todo/todo.c.obj	fc734718ab1ec874
+2	61	7214430411719035	CMakeFiles/ClassCFinal.dir/functions/moy/moy.c.obj	79a460ae0c6af5d1
+8	62	7214430411729008	CMakeFiles/ClassCFinal.dir/functions/calc/calc.c.obj	30aa06d87216eeb7
+12	63	7214430411748957	CMakeFiles/ClassCFinal.dir/functions/mode/mode.c.obj	65cdb44c6ebed1e8
+64	234	7214430413421410	ClassCFinal.exe	154be62bf1bc3c61

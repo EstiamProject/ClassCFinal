@@ -1,8 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "functions.h"
-#include "utils.h"
+#include "functions/calc/calc.h"
+#include "functions/todo/todo.h"
+#include "functions/mode/mode.h"
+#include "functions/moy/moy.h"
+#include "misc/utils.h"
 
 int main(){
 

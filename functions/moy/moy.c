@@ -1,20 +1,9 @@
 //
-// Created by tuke on 11/10/2023.
+// Created by tuke on 11/11/2023.
 //
 
 #include <stdio.h>
-#include <stdlib.h>
-#include "utils.h"
-
-void calc(char * input){
-
-    printf("%s", input);
-}
-
-void todo(char * input){
-
-    printf("%s", input);
-}
+#include "../../misc/utils.h"
 
 void moy(char * input){
 
@@ -30,9 +19,4 @@ void moy(char * input){
     }
     if (num != 0)
         printf("moyenne: %f\n", sum / (float)num); // print la somme
-}
-
-void mode(char * input){
-
-    printf("%s", input);
 }
