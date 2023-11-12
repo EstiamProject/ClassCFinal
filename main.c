@@ -9,9 +9,9 @@
 
 int main(){
 
-    char input[255] = ""; // le input de l'utilisateur
+    char input[255] = ""; // le input de l'utilisateur 
     char func[255] = ""; // la partie qui appel la fonction ex: calc, moy...
-    char rest[255] = ""; // la partie 3 + 4 - 4 par exemple
+    char rest[255] = ""; // la partie 3 + 4 - 4 par exemple 
 
     while (1) {
 
