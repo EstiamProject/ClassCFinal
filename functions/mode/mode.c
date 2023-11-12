@@ -6,17 +6,17 @@
 #include "../../misc/utils.h"
 
 void mode(char * input){
-
+    
     if (!strcmp(input, "calc")){
-        printf("mode calc selected");
+        printf("mode calc selected\n");
     } else if (!strcmp(input, "moy")) {
-        printf("mode moy selected");
+        printf("mode moy selected\n");
     } else if (!strcmp(input, "todo")) {
-        printf("mode todo selected");
+        printf("mode todo selected\n");
     } else if (!strcmp(input, "exit")) {
-        printf("quitting modes");
+        printf("quitting modes\n");
     } else {
-        printf("mode not detected");
+        printf("mode not detected\n");
     }
 
 }
