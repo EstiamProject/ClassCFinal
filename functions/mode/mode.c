@@ -14,7 +14,7 @@ void mode(char * input){
     } else if (!strcmp(input, "todo")) {
         printf("mode todo selected\n ");
     } else if (!strcmp(input, "exit")) {
-        printf("quitting modes\n");
+        printf("quitting modes\n ");
     } else {
         printf("mode not detected\n");
     }
