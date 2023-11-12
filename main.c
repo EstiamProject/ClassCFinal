@@ -7,7 +7,7 @@
 #include "functions/moy/moy.h"
 #include "misc/utils.h"
 
-int main(){
+int main(){ // test
 
     char input[255] = ""; // le input de l'utilisateur 
     char func[255] = ""; // la partie qui appel la fonction ex: calc, moy...
