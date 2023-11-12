@@ -15,10 +15,10 @@ void chop_start(char *str, size_t n){ // removes start of string n being the amo
     memmove(str, str+n, len - n + 1);
 }
 
-void remove_spaces(char* s) { // removes spaces of string
+void remove_character(char* s, char c) { // removes certain character in a string
     char* d = s;
     do {
-        while (*d == ' ') {
+        while (*d == c) {
             ++d;
         }
     } while (*s++ = *d++);

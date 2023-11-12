@@ -26,9 +26,12 @@ int main(){
 
         int len = 0; // pour savoir la taille de func
 
-        while (input[len] != ' ') {
+        while (1) {
 
             func[len] = input[len];
+
+            if(input[len] == ' ')
+                break;
 
             if (len >= 255){
                 printf("input invalid\n");
@@ -39,7 +42,7 @@ int main(){
 
         strcpy(rest, input); //copier input dans rest
         chop_start(rest, len); // enlever la partie commande
-
+        remove_character(rest, '\n');
         if (!strcmp(func, "calc ")) {
 
             calc(rest);
@@ -53,7 +56,7 @@ int main(){
             moy(rest);
 
         } else if (!strcmp(func, "mode ")) {
-
+            remove_character(rest,' ');
             mode(rest);
 
         } else {
