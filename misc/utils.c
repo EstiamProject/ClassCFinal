@@ -31,15 +31,13 @@ void StringToListOfNumbers(char*s, int*list, int*num){ // pretty logical :)
     int count = 0;
     char *token = strtok(s, " ");
 
-
     while (token != NULL && count < maxSize) {
         numbers[count] = atoi(token);
         count++;
         token = strtok(NULL, " ");
     }
 
-    for (int i = 0; i < count; i++) {
-        list[i] = numbers[i];
-    }
+    memcpy(list, numbers, sizeof(numbers));
+
     *num = count;
 }

@@ -12,14 +12,11 @@ int detect_mode(char* in) {
 
     if (!strcmp(in, "calc")) {
 
-
         return 0;
     } else if (!strcmp(in, "moy")) {
 
-
         return 1;
     } else if (!strcmp(in, "todo")) {
-
 
         return 2;
     } else if (!strcmp(in, "exit")) {
@@ -48,16 +45,18 @@ void call_functions(char* in, int mode) {
             todo(in);
             printf("todo >>");
             break;
-
     }
 }
 
 void mode(char * input){
 
     int mode = detect_mode(input);
+
     if(mode == 4)
         return;
+
     int prevmode = mode;
+
     while (mode != 3){
 
         switch (mode) {
@@ -74,7 +73,6 @@ void mode(char * input){
                 call_functions(input, prevmode);
                 break;
         }
-
         fgets(input, 255, stdin); // get user input
         remove_character(input, '\n');
         mode = detect_mode(input);

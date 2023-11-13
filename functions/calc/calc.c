@@ -24,9 +24,7 @@ void calc(char * input){
         else{
             result += atoi(token);
         }
-
         token = strtok(NULL, " ");
     }
-
     printf("%d\n", result);
 }
