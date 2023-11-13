@@ -9,6 +9,5 @@
 
 void chop_start(char *str, size_t n);
 void remove_character(char* s, char c);
-int get_length(char *s);
 int count_spaces(char*s);
 void StringToListOfNumbers(char*s, int*listl, int *num);

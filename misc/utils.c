@@ -24,14 +24,6 @@ void remove_character(char* s, char c) { // removes certain character in a strin
     } while (*s++ = *d++);
 }
 
-int get_length(char* s){ // gets length of used spaces in a string
-
-    for (int i = 0; i < 255; i++){
-        if (s[i] == '\0')
-            return i;
-    }
-}
-
 int count_spaces(char* s){ // count the amount of spaces (used for getting the number of elements)
     int spaces = 0;
     for(int i = 0; s[i] != '\0'; i++)
