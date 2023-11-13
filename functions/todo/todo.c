@@ -54,7 +54,7 @@ void todo(char * input){
         file = fopen("list.txt", "a"); // open in append mode
 
         if (file == NULL) {
-            printf("could not open list\n"); // shouldnt happen but who knows
+            printf("could not open list\n"); // shouldn't happen but who knows
             return;
         }
         fprintf(file, "%s\n",input );
@@ -80,7 +80,7 @@ void todo(char * input){
 
         rewind(file); // go back to start
 
-        while ((c = fgetc(file)) != EOF) { // print the full file
+        while ((c = (char)fgetc(file)) != EOF) { // print the full file
 
             putchar(c);
         }
@@ -88,26 +88,26 @@ void todo(char * input){
 
     } else if (!strcmp(instruction,"delete")) {
 
-        int linetodel = atoi(input);
+        int del_line = atoi(input);
 
         int currentLine = 1;
         char buffer[512];
 
         file = fopen("list.txt", "r+"); //open file to read and write
         if (file == NULL) {
-            printf("couldnt open file\n");
+            printf("couldn't open file\n");
             return;
         }
 
         FILE *tempFile = fopen("temp.txt", "w"); //open file to just write
         if (tempFile == NULL) {
-            printf("couldnt open file\n");
+            printf("couldn't open file\n");
             fclose(file);
             return;
         }
 
         while (fgets(buffer, sizeof(buffer), file) != NULL) { //get all lines except the one we are removing
-            if (currentLine != linetodel) {
+            if (currentLine != del_line) {
                 fputs(buffer, tempFile);
             }
             currentLine++;

@@ -24,18 +24,6 @@ void remove_character(char* s, char c) { // removes certain character in a strin
     } while (*s++ = *d++);
 }
 
-int count_spaces(char* s){ // count the amount of spaces (used for getting the number of elements)
-    int spaces = 0;
-    for(int i = 0; s[i] != '\0'; i++)
-    {
-        if (s[i] == ' ')
-        {
-            spaces++;
-        }
-    }
-    return spaces;
-}
-
 void StringToListOfNumbers(char*s, int*list, int*num){ // pretty logical :)
 
     int maxSize = 100;
