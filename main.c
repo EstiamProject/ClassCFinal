@@ -42,6 +42,7 @@ int main(){
         strcpy(rest, input); //copier input dans rest
         chop_start(rest, len); // enlever la partie commande
         remove_character(rest, '\n');
+
         if (!strcmp(func, "calc ")) {
 
             calc(rest);
