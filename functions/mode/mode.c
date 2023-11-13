@@ -7,6 +7,7 @@
 #include "../moy/moy.h"
 #include "../todo/todo.h"
 #include "../calc/calc.h"
+
 int detect_mode(char* in) {
 
     if (!strcmp(in, "calc")) {
