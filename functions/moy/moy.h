@@ -8,3 +8,4 @@
 #endif //CLASSC_MOY_H
 
 void moy(char * input);
+int CheckIfInputIsValid(char * in);

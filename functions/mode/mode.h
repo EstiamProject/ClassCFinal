@@ -7,4 +7,6 @@
 
 #endif //CLASSC_MODE_H
 
+void call_functions(char* in, int mode);
+int detect_mode(char* in);
 void mode(char * input);
