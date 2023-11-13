@@ -9,7 +9,7 @@
 
 void calc(char * input){
 
-    int result = 0, temp = 0;
+    int result = 0;
     char* token = strtok(input, " ");
 
     while (token != NULL) {
